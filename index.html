@@ -28,8 +28,44 @@
     <button type="submit">Book Appointment</button>
   </form>
 
+  <div id="confirmation"></div><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+  <title>Salon Appointment</title>
+</head>
+<body>
+  <h1>Book Your Appointment</h1>
+
+  <form id="bookingForm">
+    <label>Name:</label>
+    <input type="text" id="name" placeholder="Your Name" required>
+
+    <label>Service:</label>
+    <select id="service" required>
+      <option value="Haircut">Haircut</option>
+      <option value="Manicure">Manicure</option>
+      <option value="Pedicure">Pedicure</option>
+      <option value="Spa">Spa</option>
+    </select>
+
+    <label>Date & Time:</label>
+    <input type="datetime-local" id="datetime" required>
+
+    <button type="submit">Book Appointment</button>
+  </form>
+
   <div id="confirmation"></div>
 
   <script src="script.js"></script>
 </body>
 </html>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
+
